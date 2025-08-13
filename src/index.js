@@ -29,3 +29,13 @@ function showTime(event) {
 
 let timElement = document.querySelector("#timeZone");
 timElement.addEventListener("change", showTime);
+
+function displayCity(event) {
+  event.preventDefault(); // fixed typo
+  let typeElement = document.querySelector("#type");
+  let h3Element = document.querySelector("#h3");
+  h3Element.innerHTML = typeElement.value; // display selected value
+}
+
+let submitElement = document.querySelector("#submit");
+submitElement.addEventListener("click", displayCity); // added comma and fixed name
