@@ -1,0 +1,49 @@
+body {
+  background: #eb91b1;
+  background: radial-gradient(
+    circle,
+    rgba(235, 145, 177, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  font-family: "Playwrite AU QLD", cursive;
+}
+
+.bodyPage {
+  max-width: 600px;
+  margin: 120px auto;
+}
+h1 {
+  margin-left: 20px;
+  font-size: 38px;
+}
+.time-page {
+  width: 400px;
+  padding: 20px;
+  background-color: antiquewhite;
+  margin-left: 60px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.timec {
+  width: 400px;
+  padding: 5px;
+  border-radius: 50px;
+  border: 2px solid black;
+  font-family: "Playwrite AU QLD", cursive;
+}
+
+.place {
+  width: 400px;
+  padding: 20px;
+  background-color: antiquewhite;
+  margin-left: 60px;
+  border-left: 7px solid white;
+
+  margin-top: 15px;
+  color: black;
+}
+
+.text {
+  display: none;
+}
